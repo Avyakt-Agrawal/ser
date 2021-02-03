@@ -12,7 +12,7 @@ app.use(
         extended:false
     })
 )
-const mongoURI='mongodb+srv://warlock:bruno2310@cluster0.9neki.mongodb.net/test?retryWrites=true&w=majority'
+
 mongoose.connect(
     mongoURI,
     {
